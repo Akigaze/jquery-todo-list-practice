@@ -20,7 +20,7 @@ body {
 
 input{
     padding: 4px 15px 4px 0;
-    
+
 }
 
 #button{
@@ -50,6 +50,13 @@ ol li:nth-child(even){
     background: #f4ecec;
 }
 
+/* ol li .checked:nth-child(even){
+    background: #f4ecec;
+}
+ol li:not(.checked):nth-child(even){
+    background: #f4ecec;
+} */
+
 li:hover{
   cursor: pointer;
  }
@@ -58,7 +65,7 @@ li:hover{
      text-align: center;
      margin-bottom: -10px;
      margin-top: 40px;
- 
+
  }
 
 #filters li a {
@@ -90,7 +97,7 @@ li:hover{
     text-decoration: line-through;
 }
 
-input[type=checkbox].done-todo { 
-	
-    margin: 5px 5px 2px 0; 
+input[type=checkbox].done-todo {
+
+    margin: 5px 5px 2px 0;
 }
