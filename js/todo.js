@@ -31,7 +31,7 @@ $(document).ready(function () {
   }
 
   classChangeOfCheckBox();
-
+  $("li").attr("contenteditable",true);
   $("#button").click(function(){
     let $newItem=$(".input-text").val();
     let uuid=generateUUID();

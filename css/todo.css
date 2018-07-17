@@ -44,6 +44,7 @@ ol {
 
 ol li {
     padding: 5px;color:#000;
+    contenteditable:true;
 }
 
 ol li:nth-child(even){
